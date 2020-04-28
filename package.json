@@ -31,8 +31,10 @@
     "uuid": "^7.0.3",
     "yarn": "^1.22.4"
   },
+  
   "scripts": {
-    "start": "react-scripts start",
+    "serve": "react-scripts start",
+    "start": "SET DEBUG-true && electron",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
